@@ -1,0 +1,114 @@
+GAMS 49.1.0  5c4d4ed6 Feb 15, 2025          LEX-LEG x86 64bit/Linux - 05/12/25 05:47:59 Page 1
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+
+
+COMPILATION TIME     =        0.047 SECONDS      4 MB  49.1.0 5c4d4ed6 LEX-LEG
+GAMS 49.1.0  5c4d4ed6 Feb 15, 2025          LEX-LEG x86 64bit/Linux - 05/12/25 05:47:59 Page 2
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Range Statistics    SOLVE GAMS_MODEL Using MINLP From line 2082
+
+
+RANGE STATISTICS (ABSOLUTE NON-ZERO FINITE VALUES)
+
+RHS       [min, max] : [ 2.688E-01, 2.510E+01]
+Bound     [min, max] : [ 1.000E+00, 1.000E+00] - Zero values observed as well
+Matrix    [min, max] : [ 2.683E-05, 2.296E+01]
+
+GAMS 49.1.0  5c4d4ed6 Feb 15, 2025          LEX-LEG x86 64bit/Linux - 05/12/25 05:47:59 Page 3
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Model Statistics    SOLVE GAMS_MODEL Using MINLP From line 2082
+
+
+MODEL STATISTICS
+
+BLOCKS OF EQUATIONS         969     SINGLE EQUATIONS          969
+BLOCKS OF VARIABLES         102     SINGLE VARIABLES          102
+NON ZERO ELEMENTS         5,862     NON LINEAR N-Z          4,805
+CODE LENGTH             106,673     CONSTANT POOL          24,804     DISCRETE VARIABLES         96
+
+
+GENERATION TIME      =        0.027 SECONDS      6 MB  49.1.0 5c4d4ed6 LEX-LEG
+GAMS 49.1.0  5c4d4ed6 Feb 15, 2025          LEX-LEG x86 64bit/Linux - 05/12/25 05:47:59 Page 4
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Solution Report     SOLVE GAMS_MODEL Using MINLP From line 2082
+
+
+               S O L V E      S U M M A R Y
+
+     MODEL   GAMS_MODEL          OBJECTIVE  GAMS_OBJECTIVE
+     TYPE    MINLP               DIRECTION  MINIMIZE
+     SOLVER  BARON               FROM LINE  2082
+
+**** SOLVER STATUS     1 Normal Completion
+**** MODEL STATUS      1 Optimal
+**** OBJECTIVE VALUE               -1.2163
+
+ RESOURCE USAGE, LIMIT        100.990      1800.000
+ ITERATION COUNT, LIMIT         0    2147483647
+ EVALUATION ERRORS              0             0
+
+GAMS/BARON       49.1.0 5c4d4ed6 Feb 15, 2025          LEG x86 64bit/Linux    
+
+BARON is a product of The Optimization Firm, LLC. http://www.minlp.com/
+Parts of the BARON software were created at the
+University of Illinois at Urbana-Champaign.
+
+--- Using Option File
+Reading parameter(s) from "/local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.bigm/no_mode/2025-05-12_05-47-57/original/baron.opt"
+*** Warning Read from empty file or string
+Finished reading from "/local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.bigm/no_mode/2025-05-12_05-47-57/original/baron.opt"
+
+===========================================================================
+ BARON version 25.2.1. Built: LNX-64 Sat Feb 1 21:54:09 EST 2025 
+ Running on machine dantzig.ecn.purdue.edu
+
+ BARON is a product of The Optimization Firm.
+ For information on BARON, see https://minlp.com/about-baron
+
+ If you publish work using this software, please cite publications from
+ https://minlp.com/baron-publications, such as: 
+
+ Zhang, Y. and N. V. Sahinidis, Solving continuous and discrete
+ nonlinear programs with BARON, Comput Optim Appl (2024). 
+ https://doi.org/10.1007/s10589-024-00633-0
+===========================================================================
+ This BARON run may utilize the following subsolver(s)
+ For LP/MIP/QP: CLP/CBC, ILOG CPLEX                             
+
+Solution      = -1.21625113037731  found at node 1
+Best possible = -1.21625113037731
+Absolute gap  = 0  optca = 1E-9
+Relative gap  = 0  optcr = 1E-6
+
+
+
+**** REPORT SUMMARY :        0     NONOPT
+                             0 INFEASIBLE
+                             0  UNBOUNDED
+                             0     ERRORS
+GAMS 49.1.0  5c4d4ed6 Feb 15, 2025          LEX-LEG x86 64bit/Linux - 05/12/25 05:47:59 Page 5
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+E x e c u t i o n
+
+
+**** REPORT FILE SUMMARY
+
+results /local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.bigm/no_mode/2025-05-12_05-47-57/original/results.dat
+statresults /local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.bigm/no_mode/2025-05-12_05-47-57/original/resultsstat.dat
+
+
+EXECUTION TIME       =      101.100 SECONDS      9 MB  49.1.0 5c4d4ed6 LEX-LEG
+
+
+USER: David Bernal / SECQUOIA Research Group         G240524|0002AS-GEN
+      Purdue University, Davidson School of Chemical EngineeringDCE3427
+      License for teaching and research at degree granting institutions
+
+
+**** FILE SUMMARY
+
+Input      /local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.bigm/no_mode/2025-05-12_05-47-57/original/model.gms
+Output     /local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.bigm/no_mode/2025-05-12_05-47-57/original/output.lst

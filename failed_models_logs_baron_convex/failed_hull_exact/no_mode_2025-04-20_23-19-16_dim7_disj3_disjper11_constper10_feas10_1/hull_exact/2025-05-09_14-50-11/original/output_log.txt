@@ -1,0 +1,107 @@
+Solving original (integer) problem with strategy gdp.hull_exact...
+--- Job model.gms Start 05/09/25 15:02:13 49.1.0 5c4d4ed6 LEX-LEG x86 64bit/Linux
+--- Applying:
+    /package/gams/49.1.0/gmsprmun.txt
+--- GAMS Parameters defined
+    Input /local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.hull_exact/no_mode/2025-05-09_14-50-11/original/model.gms
+    Output /local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.hull_exact/no_mode/2025-05-09_14-50-11/original/output.lst
+    ScrDir /local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.hull_exact/no_mode/2025-05-09_14-50-11/original/225a/
+    SysDir /package/gams/49.1.0/
+    CurDir /local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.hull_exact/no_mode/2025-05-09_14-50-11/original/
+    LogOption 3
+Licensee: David Bernal / SECQUOIA Research Group         G240524|0002AS-GEN
+          Purdue University, Davidson School of Chemical EngineeringDCE3427
+          /local/scratch/a/sgusev/.local/share/GAMS/gamslice.txt
+          License Admin: David E Bernal, dbernaln@purdue.edu               
+          Evaluation license: Not for commercial or production use
+          The expiration date of time-limited license is Apr 14, 2026
+System information: 48 physical cores and 995 Gb memory detected
+GAMS 49.1.0   Copyright (C) 1987-2025 GAMS Development. All rights reserved
+--- Starting compilation
+--- model.gms(2408) 3 Mb
+--- $echo File /local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.hull_exact/no_mode/2025-05-09_14-50-11/original/baron.opt
+--- model.gms(3556) 3 Mb
+--- Starting execution: elapsed 0:00:00.045
+--- model.gms(2410) 4 Mb
+--- Generating MINLP model GAMS_MODEL
+--- model.gms(2414) 6 Mb
+--- Reset Solvelink = 2
+---   817 rows  272 columns  3,857 non-zeroes
+---   45,753 nl-code  2,647 nl-non-zeroes
+---   33 discrete-columns
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 3.570E-01, 1.000E+00] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E+00, 1.000E+00] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.588E-02, 1.000E+00] - Zero values observed as well
+--- model.gms(2414) 4 Mb
+--- Executing BARON (Solvelink=2): elapsed 0:00:00.060
+
+GAMS/BARON       49.1.0 5c4d4ed6 Feb 15, 2025          LEG x86 64bit/Linux    
+
+--- Using Option File
+Reading parameter(s) from "/local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.hull_exact/no_mode/2025-05-09_14-50-11/original/baron.opt"
+*** Warning Read from empty file or string
+Finished reading from "/local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.hull_exact/no_mode/2025-05-09_14-50-11/original/baron.opt"
+===========================================================================
+ BARON version 25.2.1. Built: LNX-64 Sat Feb 1 21:54:09 EST 2025 
+ Running on machine dantzig.ecn.purdue.edu
+
+ BARON is a product of The Optimization Firm.
+ For information on BARON, see https://minlp.com/about-baron
+
+ If you publish work using this software, please cite publications from
+ https://minlp.com/baron-publications, such as: 
+
+ Zhang, Y. and N. V. Sahinidis, Solving continuous and discrete
+ nonlinear programs with BARON, Comput Optim Appl (2024). 
+ https://doi.org/10.1007/s10589-024-00633-0
+===========================================================================
+ This BARON run may utilize the following subsolver(s)
+ For LP/MIP/QP: CLP/CBC, ILOG CPLEX                             
+ For NLP: MINOS, SNOPT, External NLP, IPOPT, FILTERSQP
+===========================================================================
+ Doing local search
+ Preprocessing found feasible solution with value -0.290033
+ Solving bounding LP
+ Starting multi-start local search
+ Estimated remaining time for local search is 71 secs
+ Estimated remaining time for local search is 30 secs
+ Done with local search
+===========================================================================
+  Iteration       Time (s)     Mem   Lower bound     Upper bound   Progress
+          1+        211.11    35MB    -0.818142       -0.290033       NA
+          1+        256.67    35MB    -0.818142       -0.290033       NA
+*         1         257.42    35MB    -0.818142       -0.314416       0.05%
+          1         269.52    35MB    -0.818142       -0.314416       0.09%
+         11         299.63    90MB    -0.511120       -0.314416      10.40%
+         16         378.44    90MB    -0.511120       -0.314416      10.68%
+         31         458.79    90MB    -0.511120       -0.314416      11.37%
+*        36         473.68    90MB    -0.511120       -0.383517      11.37%
+         37         522.81    90MB    -0.511120       -0.383517      11.37%
+ 
+*** A potentially catastrophic access violation just took place 
+*** The search will be terminated by BARON after returning the best known solution 
+*** Please report this problem to Nick Sahinidis (niksah@minlp.com) 
+ 
+---  The best solution found is:
+
+Solution      = -0.38351667225313  found at node 36
+Best possible = -0.511120343885916
+Absolute gap  = 0.127603671632786  optca = 1E-9
+Relative gap  = 0.249654847746126  optcr = 1E-6
+
+--- Reading solution for model GAMS_MODEL
+--- Executing after solve: elapsed 0:08:51.783
+--- model.gms(2417) 4 Mb
+--- model.gms(3556) 6 Mb
+--- Putfile results /local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.hull_exact/no_mode/2025-05-09_14-50-11/original/results.dat
+--- Putfile statresults /local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.hull_exact/no_mode/2025-05-09_14-50-11/original/resultsstat.dat
+*** Status: Normal completion
+--- Job model.gms Stop 05/09/25 15:11:05 elapsed 0:08:51.786
+
+GAMS WORKING DIRECTORY: /local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.hull_exact/no_mode/2025-05-09_14-50-11/original
+
+WARNING: Loading a SolverResults object with an 'aborted' status, but
+containing a solution
+Original problem solved. Time taken: 531.9709665775299 seconds
+Original objective value: -0.3835166722531299

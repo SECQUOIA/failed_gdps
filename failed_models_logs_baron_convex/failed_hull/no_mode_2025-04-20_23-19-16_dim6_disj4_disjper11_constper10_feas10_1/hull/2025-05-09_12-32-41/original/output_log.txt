@@ -1,0 +1,114 @@
+Solving original (integer) problem with strategy gdp.hull...
+--- Job model.gms Start 05/09/25 12:32:54 49.1.0 5c4d4ed6 LEX-LEG x86 64bit/Linux
+--- Applying:
+    /package/gams/49.1.0/gmsprmun.txt
+--- GAMS Parameters defined
+    Input /local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.hull/no_mode/2025-05-09_12-32-41/original/model.gms
+    Output /local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.hull/no_mode/2025-05-09_12-32-41/original/output.lst
+    ScrDir /local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.hull/no_mode/2025-05-09_12-32-41/original/225a/
+    SysDir /package/gams/49.1.0/
+    CurDir /local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.hull/no_mode/2025-05-09_12-32-41/original/
+    LogOption 3
+Licensee: David Bernal / SECQUOIA Research Group         G240524|0002AS-GEN
+          Purdue University, Davidson School of Chemical EngineeringDCE3427
+          /local/scratch/a/sgusev/.local/share/GAMS/gamslice.txt
+          License Admin: David E Bernal, dbernaln@purdue.edu               
+          Evaluation license: Not for commercial or production use
+          The expiration date of time-limited license is Apr 14, 2026
+System information: 48 physical cores and 995 Gb memory detected
+GAMS 49.1.0   Copyright (C) 1987-2025 GAMS Development. All rights reserved
+--- Starting compilation
+--- model.gms(2875) 7 Mb
+--- $echo File /local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.hull/no_mode/2025-05-09_12-32-41/original/baron.opt
+--- model.gms(4246) 7 Mb
+--- Starting execution: elapsed 0:00:00.128
+--- model.gms(2877) 8 Mb
+--- Generating MINLP model GAMS_MODEL
+--- model.gms(2881) 12 Mb
+--- Reset Solvelink = 2
+---   997 rows  315 columns  4,475 non-zeroes
+---   225,879 nl-code  3,086 nl-non-zeroes
+---   44 discrete-columns
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 1.115E-06, 1.000E+00] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E+00, 1.000E+00] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.940E-04, 9.902E+00]
+--- model.gms(2881) 9 Mb
+--- Executing BARON (Solvelink=2): elapsed 0:00:00.176
+
+GAMS/BARON       49.1.0 5c4d4ed6 Feb 15, 2025          LEG x86 64bit/Linux    
+
+--- Using Option File
+Reading parameter(s) from "/local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.hull/no_mode/2025-05-09_12-32-41/original/baron.opt"
+*** Warning Read from empty file or string
+Finished reading from "/local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.hull/no_mode/2025-05-09_12-32-41/original/baron.opt"
+===========================================================================
+ BARON version 25.2.1. Built: LNX-64 Sat Feb 1 21:54:09 EST 2025 
+ Running on machine dantzig.ecn.purdue.edu
+
+ BARON is a product of The Optimization Firm.
+ For information on BARON, see https://minlp.com/about-baron
+
+ If you publish work using this software, please cite publications from
+ https://minlp.com/baron-publications, such as: 
+
+ Zhang, Y. and N. V. Sahinidis, Solving continuous and discrete
+ nonlinear programs with BARON, Comput Optim Appl (2024). 
+ https://doi.org/10.1007/s10589-024-00633-0
+===========================================================================
+ This BARON run may utilize the following subsolver(s)
+ For LP/MIP/QP: CLP/CBC, ILOG CPLEX                             
+ For NLP: MINOS, SNOPT, External NLP, IPOPT, FILTERSQP
+===========================================================================
+ Doing local search
+ Preprocessing found feasible solution with value -0.151203
+ Solving bounding LP
+ Starting multi-start local search
+ Preprocessing found feasible solution with value -0.240991
+ Done with local search
+===========================================================================
+  Iteration       Time (s)     Mem   Lower bound     Upper bound   Progress
+          1+        194.23    52MB    -0.555109       -0.240991       NA
+*         1         194.28    52MB    -0.555109       -0.542796      69.10%
+*         1         215.24    52MB    -0.555109       -0.553407      77.69%
+          1+        249.91    52MB    -0.555109       -0.553407      77.69%
+          1         424.28    52MB    -0.555109       -0.553407      77.69%
+          2         576.66    52MB    -0.555109       -0.553407      77.69%
+          3         781.51    52MB    -0.555109       -0.553407      77.69%
+          5         879.17    52MB    -0.555109       -0.553407      77.69%
+          7         972.85    52MB    -0.555109       -0.553407      77.69%
+          9         979.19    47MB    -0.553407       -0.553407     100.00%
+
+                         *** Normal completion ***            
+
+ Wall clock time:                   982.03
+ Total CPU time used:               979.19
+
+ Total no. of BaR iterations:       9
+ Best solution found at node:       1
+ Max. no. of nodes in memory:       2
+ 
+ All done
+===========================================================================
+
+Solution      = -0.553407441126215  found at node 1
+Best possible = -0.553407441126215
+Absolute gap  = 0  optca = 1E-9
+Relative gap  = 0  optcr = 1E-6
+
+--- Reading solution for model GAMS_MODEL
+***
+*** Solver did not provide marginals for model GAMS_MODEL
+***
+--- Executing after solve: elapsed 0:16:22.317
+--- model.gms(2884) 9 Mb
+--- model.gms(4246) 11 Mb
+--- Putfile results /local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.hull/no_mode/2025-05-09_12-32-41/original/results.dat
+--- Putfile statresults /local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.hull/no_mode/2025-05-09_12-32-41/original/resultsstat.dat
+*** Status: Normal completion
+--- Job model.gms Stop 05/09/25 12:49:16 elapsed 0:16:22.320
+
+GAMS WORKING DIRECTORY: /local/scratch/a/sgusev/repos/psd_gams_baron/random_quadratic/data/gams_baron_gdp.hull/no_mode/2025-05-09_12-32-41/original
+
+Original problem solved. Time taken: 982.9977691173553 seconds
+Original objective value: -0.5534074411262151

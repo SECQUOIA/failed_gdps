@@ -1,0 +1,52 @@
+{
+  "model_parameters": {
+    "n_dimensions": 7,
+    "n_disjunctions": 4,
+    "n_disjuncts_per_disjunction": 11,
+    "n_constraints_per_disjunct": 10,
+    "n_feasible_regions": 10,
+    "coeff_range": [
+      -1.0,
+      1.0
+    ],
+    "constraint_margin": [
+      0.0,
+      0.01
+    ],
+    "x_range": [
+      -1.0,
+      1.0
+    ],
+    "ensure_positive_definite": true,
+    "sparsity": 0.0,
+    "random_seed": 0,
+    "num_constraints": 440,
+    "num_positive_semidefinite_Q": 440,
+    "num_positive_d": 22
+  },
+  "solution": {
+    "status": "optimal",
+    "x_values": {
+      "1": 0.262956093313199,
+      "2": -0.447051976988244,
+      "3": 0.058721862946745,
+      "4": -0.142077924314049,
+      "5": 0.04456527000913,
+      "6": -0.184382331574794,
+      "7": -0.250848408451237
+    },
+    "objective_value": -0.7354382319362762
+  },
+  "performance": {
+    "solution_time_seconds": 445.79842734336853,
+    "solver_status": "aborted",
+    "termination_condition": "optimal",
+    "solver": "gams",
+    "subsolver": "baron",
+    "is_relaxation": false,
+    "root_relaxation_value": -0.655191,
+    "root_relaxation_gap_percent": 10.911484942114006,
+    "relaxation_gap_percent": null,
+    "absolute_gap": null
+  }
+}

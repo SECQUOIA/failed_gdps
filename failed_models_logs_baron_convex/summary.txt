@@ -1,0 +1,685 @@
+Failed Models Log Copy Summary
+================================================================================
+
+Date: 2025-10-03 21:11:59
+Total wrong solutions found: 95
+Successfully copied: 95
+Errors: 0
+
+Organization: Logs are grouped by failed strategy
+Structure: failed_{strategy}/model_id/{strategy_name}|bigm/timestamp/
+  - strategy_name is the actual strategy (e.g., hull, hull_exact, binary_multiplication)
+
+Successfully Copied Models:
+--------------------------------------------------------------------------------
+
+### Failed Strategy: gdp.hull (65 models) ###
+
+Model: model_no_mode_2025-04-20_23-19-16_dim3_disj3_disjper10_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim3_disj3_disjper10_constper10_feas10_1
+  Failed Objective: -0.810473
+  Ground Truth: -0.917008
+  BigM Objective: -0.917008
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim3_disj3_disjper10_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim3_disj3_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim3_disj3_disjper11_constper10_feas10_1
+  Failed Objective: -0.087489
+  Ground Truth: -0.447167
+  BigM Objective: -0.447167
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim3_disj3_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim3_disj4_disjper10_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim3_disj4_disjper10_constper10_feas10_1
+  Failed Objective: 0.742358
+  Ground Truth: -0.488117
+  BigM Objective: -0.488117
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim3_disj4_disjper10_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj3_disjper10_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj3_disjper10_constper10_feas10_1
+  Failed Objective: -1.284255
+  Ground Truth: -1.503530
+  BigM Objective: -1.503530
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj3_disjper10_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim3_disj3_disjper12_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim3_disj3_disjper12_constper10_feas10_1
+  Failed Objective: -0.434631
+  Ground Truth: -0.489244
+  BigM Objective: -0.489244
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim3_disj3_disjper12_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim3_disj4_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim3_disj4_disjper11_constper10_feas10_1
+  Failed Objective: -0.904045
+  Ground Truth: -0.926644
+  BigM Objective: -0.926644
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim3_disj4_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj3_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj3_disjper11_constper10_feas10_1
+  Failed Objective: -0.636502
+  Ground Truth: -0.697963
+  BigM Objective: -0.697962
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj3_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim3_disj3_disjper13_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim3_disj3_disjper13_constper10_feas10_1
+  Failed Objective: -1.228066
+  Ground Truth: -1.509054
+  BigM Objective: -1.509054
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim3_disj3_disjper13_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim3_disj4_disjper12_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim3_disj4_disjper12_constper10_feas10_1
+  Failed Objective: 0.309408
+  Ground Truth: -0.290170
+  BigM Objective: -0.290170
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim3_disj4_disjper12_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj3_disjper12_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj3_disjper12_constper10_feas10_1
+  Failed Objective: -0.705507
+  Ground Truth: -0.948798
+  BigM Objective: -0.948798
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj3_disjper12_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj4_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj4_disjper11_constper10_feas10_1
+  Failed Objective: -1.050270
+  Ground Truth: -1.297887
+  BigM Objective: -1.297887
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj4_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj5_disjper10_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj5_disjper10_constper10_feas10_1
+  Failed Objective: 0.135976
+  Ground Truth: 0.111555
+  BigM Objective: 0.111555
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj5_disjper10_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim5_disj3_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim5_disj3_disjper11_constper10_feas10_1
+  Failed Objective: -0.739600
+  Ground Truth: -0.872200
+  BigM Objective: -0.872200
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim5_disj3_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim5_disj4_disjper10_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim5_disj4_disjper10_constper10_feas10_1
+  Failed Objective: -0.742229
+  Ground Truth: -0.954037
+  BigM Objective: -0.954036
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim5_disj4_disjper10_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim3_disj4_disjper13_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim3_disj4_disjper13_constper10_feas10_1
+  Failed Objective: -0.379910
+  Ground Truth: -0.592578
+  BigM Objective: -0.592578
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim3_disj4_disjper13_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim3_disj5_disjper12_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim3_disj5_disjper12_constper10_feas10_1
+  Failed Objective: 0.485333
+  Ground Truth: 0.404232
+  BigM Objective: 0.404232
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim3_disj5_disjper12_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj3_disjper13_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj3_disjper13_constper10_feas10_1
+  Failed Objective: 0.805980
+  Ground Truth: -0.023965
+  BigM Objective: -0.023965
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj3_disjper13_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj4_disjper12_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj4_disjper12_constper10_feas10_1
+  Failed Objective: -0.007245
+  Ground Truth: -0.069018
+  BigM Objective: -0.069018
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj4_disjper12_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj5_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj5_disjper11_constper10_feas10_1
+  Failed Objective: -0.769143
+  Ground Truth: -0.934130
+  BigM Objective: -0.934129
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj5_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj6_disjper10_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj6_disjper10_constper10_feas10_1
+  Failed Objective: 0.467071
+  Ground Truth: 0.161372
+  BigM Objective: 0.161372
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj6_disjper10_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim5_disj4_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim5_disj4_disjper11_constper10_feas10_1
+  Failed Objective: -0.285229
+  Ground Truth: -0.382599
+  BigM Objective: -0.382599
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim5_disj4_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim5_disj5_disjper10_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim5_disj5_disjper10_constper10_feas10_1
+  Failed Objective: 0.415762
+  Ground Truth: 0.249238
+  BigM Objective: 0.249238
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim5_disj5_disjper10_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim3_disj3_disjper15_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim3_disj3_disjper15_constper10_feas10_1
+  Failed Objective: -0.524784
+  Ground Truth: -0.578342
+  BigM Objective: -0.578342
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim3_disj3_disjper15_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim3_disj4_disjper14_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim3_disj4_disjper14_constper10_feas10_1
+  Failed Objective: 0.592515
+  Ground Truth: 0.590715
+  BigM Objective: 0.590715
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim3_disj4_disjper14_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim3_disj5_disjper13_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim3_disj5_disjper13_constper10_feas10_1
+  Failed Objective: -0.799818
+  Ground Truth: -0.886168
+  BigM Objective: -0.886168
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim3_disj5_disjper13_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj3_disjper14_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj3_disjper14_constper10_feas10_1
+  Failed Objective: 0.764262
+  Ground Truth: 0.414747
+  BigM Objective: 0.414747
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj3_disjper14_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj4_disjper13_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj4_disjper13_constper10_feas10_1
+  Failed Objective: -0.593181
+  Ground Truth: -0.604951
+  BigM Objective: -0.604951
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj4_disjper13_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj5_disjper12_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj5_disjper12_constper10_feas10_1
+  Failed Objective: -1.618395
+  Ground Truth: -2.527000
+  BigM Objective: -2.526998
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj5_disjper12_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj7_disjper10_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj7_disjper10_constper10_feas10_1
+  Failed Objective: 0.557067
+  Ground Truth: 0.533579
+  BigM Objective: 0.533579
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj7_disjper10_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim5_disj3_disjper13_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim5_disj3_disjper13_constper10_feas10_1
+  Failed Objective: -0.645377
+  Ground Truth: -0.653724
+  BigM Objective: -0.653724
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim5_disj3_disjper13_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim5_disj5_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim5_disj5_disjper11_constper10_feas10_1
+  Failed Objective: -0.479702
+  Ground Truth: -0.490100
+  BigM Objective: -0.490100
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim5_disj5_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim5_disj6_disjper10_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim5_disj6_disjper10_constper10_feas10_1
+  Failed Objective: -0.819936
+  Ground Truth: -0.926854
+  BigM Objective: -0.926853
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim5_disj6_disjper10_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim6_disj3_disjper12_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim6_disj3_disjper12_constper10_feas10_1
+  Failed Objective: 0.071856
+  Ground Truth: -0.057463
+  BigM Objective: -0.057463
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim6_disj3_disjper12_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim6_disj4_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim6_disj4_disjper11_constper10_feas10_1
+  Failed Objective: -0.553407
+  Ground Truth: -0.555109
+  BigM Objective: -0.555109
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim6_disj4_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim7_disj3_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim7_disj3_disjper11_constper10_feas10_1
+  Failed Objective: -0.245109
+  Ground Truth: -0.388514
+  BigM Objective: -0.388514
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim7_disj3_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj3_disjper15_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj3_disjper15_constper10_feas10_1
+  Failed Objective: -0.607437
+  Ground Truth: -0.693338
+  BigM Objective: -0.693338
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj3_disjper15_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj4_disjper14_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj4_disjper14_constper10_feas10_1
+  Failed Objective: -0.837324
+  Ground Truth: -0.997093
+  BigM Objective: -0.997093
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj4_disjper14_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj5_disjper13_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj5_disjper13_constper10_feas10_1
+  Failed Objective: -0.705129
+  Ground Truth: -1.107691
+  BigM Objective: -1.107690
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj5_disjper13_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj6_disjper12_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj6_disjper12_constper10_feas10_1
+  Failed Objective: -0.070704
+  Ground Truth: -0.848358
+  BigM Objective: -0.848358
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj6_disjper12_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim5_disj3_disjper14_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim5_disj3_disjper14_constper10_feas10_1
+  Failed Objective: 0.426400
+  Ground Truth: -0.114593
+  BigM Objective: -0.114593
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim5_disj3_disjper14_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim5_disj5_disjper12_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim5_disj5_disjper12_constper10_feas10_1
+  Failed Objective: -0.134088
+  Ground Truth: -0.161933
+  BigM Objective: -0.161933
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim5_disj5_disjper12_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim6_disj3_disjper13_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim6_disj3_disjper13_constper10_feas10_1
+  Failed Objective: 0.145266
+  Ground Truth: -0.138760
+  BigM Objective: -0.138760
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim6_disj3_disjper13_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim6_disj4_disjper12_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim6_disj4_disjper12_constper10_feas10_1
+  Failed Objective: -0.347009
+  Ground Truth: -0.471346
+  BigM Objective: -0.471346
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim6_disj4_disjper12_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim7_disj3_disjper12_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim7_disj3_disjper12_constper10_feas10_1
+  Failed Objective: -1.847596
+  Ground Truth: -1.848867
+  BigM Objective: -1.848867
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim7_disj3_disjper12_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj4_disjper15_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj4_disjper15_constper10_feas10_1
+  Failed Objective: -1.028289
+  Ground Truth: -1.101062
+  BigM Objective: -1.101062
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj4_disjper15_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj5_disjper14_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj5_disjper14_constper10_feas10_1
+  Failed Objective: -0.458051
+  Ground Truth: -0.926019
+  BigM Objective: -0.926019
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj5_disjper14_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj6_disjper13_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj6_disjper13_constper10_feas10_1
+  Failed Objective: 0.761082
+  Ground Truth: 0.312506
+  BigM Objective: 0.312506
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj6_disjper13_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj7_disjper12_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj7_disjper12_constper10_feas10_1
+  Failed Objective: 0.143088
+  Ground Truth: -0.166119
+  BigM Objective: -0.166119
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj7_disjper12_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim5_disj3_disjper15_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim5_disj3_disjper15_constper10_feas10_1
+  Failed Objective: -0.065854
+  Ground Truth: -0.078614
+  BigM Objective: -0.078614
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim5_disj3_disjper15_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim5_disj5_disjper13_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim5_disj5_disjper13_constper10_feas10_1
+  Failed Objective: 0.464698
+  Ground Truth: 0.259029
+  BigM Objective: 0.259029
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim5_disj5_disjper13_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim5_disj8_disjper10_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim5_disj8_disjper10_constper10_feas10_1
+  Failed Objective: -0.487266
+  Ground Truth: -0.686865
+  BigM Objective: -0.686865
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim5_disj8_disjper10_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim6_disj7_disjper10_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim6_disj7_disjper10_constper10_feas10_1
+  Failed Objective: -0.477022
+  Ground Truth: -0.715978
+  BigM Objective: -0.715978
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim6_disj7_disjper10_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj5_disjper15_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj5_disjper15_constper10_feas10_1
+  Failed Objective: -0.127496
+  Ground Truth: -0.432394
+  BigM Objective: -0.432394
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj5_disjper15_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj7_disjper13_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj7_disjper13_constper10_feas10_1
+  Failed Objective: 0.367201
+  Ground Truth: -0.130060
+  BigM Objective: -0.130060
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj7_disjper13_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj9_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj9_disjper11_constper10_feas10_1
+  Failed Objective: -0.847655
+  Ground Truth: -1.237474
+  BigM Objective: -1.237473
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj9_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim5_disj4_disjper15_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim5_disj4_disjper15_constper10_feas10_1
+  Failed Objective: -0.622245
+  Ground Truth: -0.946561
+  BigM Objective: -0.946561
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim5_disj4_disjper15_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim6_disj3_disjper15_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim6_disj3_disjper15_constper10_feas10_1
+  Failed Objective: -1.613101
+  Ground Truth: -1.651640
+  BigM Objective: -1.651640
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim6_disj3_disjper15_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim6_disj5_disjper13_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim6_disj5_disjper13_constper10_feas10_1
+  Failed Objective: -0.439908
+  Ground Truth: -0.443097
+  BigM Objective: -0.443096
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim6_disj5_disjper13_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim3_disj7_disjper15_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim3_disj7_disjper15_constper10_feas10_1
+  Failed Objective: 0.208788
+  Ground Truth: 0.178258
+  BigM Objective: 0.178258
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim3_disj7_disjper15_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj8_disjper13_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj8_disjper13_constper10_feas10_1
+  Failed Objective: 1.049885
+  Ground Truth: 0.674177
+  BigM Objective: 0.674178
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj8_disjper13_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj9_disjper12_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj9_disjper12_constper10_feas10_1
+  Failed Objective: 0.210096
+  Ground Truth: -0.028942
+  BigM Objective: -0.028942
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj9_disjper12_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim5_disj7_disjper13_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim5_disj7_disjper13_constper10_feas10_1
+  Failed Objective: 0.619906
+  Ground Truth: 0.611713
+  BigM Objective: 0.611713
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim5_disj7_disjper13_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim7_disj3_disjper15_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim7_disj3_disjper15_constper10_feas10_1
+  Failed Objective: -1.055001
+  Ground Truth: -1.347823
+  BigM Objective: -1.347822
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim7_disj3_disjper15_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj7_disjper15_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj7_disjper15_constper10_feas10_1
+  Failed Objective: -0.062740
+  Ground Truth: -0.534259
+  BigM Objective: -0.534259
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj7_disjper15_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj8_disjper14_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj8_disjper14_constper10_feas10_1
+  Failed Objective: 0.714727
+  Ground Truth: 0.714615
+  BigM Objective: 0.714615
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull/no_mode_2025-04-20_23-19-16_dim4_disj8_disjper14_constper10_feas10_1
+
+
+### Failed Strategy: gdp.hull_exact (30 models) ###
+
+Model: model_no_mode_2025-04-20_23-19-16_dim3_disj7_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim3_disj7_disjper11_constper10_feas10_1
+  Failed Objective: -0.781524
+  Ground Truth: -0.799520
+  BigM Objective: -0.799520
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim3_disj7_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj6_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj6_disjper11_constper10_feas10_1
+  Failed Objective: 0.273738
+  Ground Truth: 0.271271
+  BigM Objective: 0.271271
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim4_disj6_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim5_disj4_disjper12_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim5_disj4_disjper12_constper10_feas10_1
+  Failed Objective: -1.076777
+  Ground Truth: -1.096944
+  BigM Objective: -1.096944
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim5_disj4_disjper12_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim7_disj3_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim7_disj3_disjper11_constper10_feas10_1
+  Failed Objective: -0.383517
+  Ground Truth: -0.388514
+  BigM Objective: -0.388514
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim7_disj3_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj8_disjper10_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj8_disjper10_constper10_feas10_1
+  Failed Objective: 0.654987
+  Ground Truth: 0.654511
+  BigM Objective: 0.654511
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim4_disj8_disjper10_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim7_disj4_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim7_disj4_disjper11_constper10_feas10_1
+  Failed Objective: -0.735438
+  Ground Truth: -0.953663
+  BigM Objective: -0.953663
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim7_disj4_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj9_disjper10_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj9_disjper10_constper10_feas10_1
+  Failed Objective: -0.397077
+  Ground Truth: -0.402335
+  BigM Objective: -0.402335
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim4_disj9_disjper10_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim5_disj7_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim5_disj7_disjper11_constper10_feas10_1
+  Failed Objective: -0.565005
+  Ground Truth: -0.585359
+  BigM Objective: -0.585359
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim5_disj7_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim7_disj3_disjper13_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim7_disj3_disjper13_constper10_feas10_1
+  Failed Objective: -0.027385
+  Ground Truth: -0.173680
+  BigM Objective: -0.173680
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim7_disj3_disjper13_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim7_disj4_disjper12_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim7_disj4_disjper12_constper10_feas10_1
+  Failed Objective: 0.222841
+  Ground Truth: 0.193807
+  BigM Objective: 0.193807
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim7_disj4_disjper12_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim7_disj5_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim7_disj5_disjper11_constper10_feas10_1
+  Failed Objective: -0.938245
+  Ground Truth: -1.042934
+  BigM Objective: -1.042934
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim7_disj5_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj10_disjper10_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj10_disjper10_constper10_feas10_1
+  Failed Objective: -1.194012
+  Ground Truth: -1.194159
+  BigM Objective: -1.194159
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim4_disj10_disjper10_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim6_disj6_disjper12_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim6_disj6_disjper12_constper10_feas10_1
+  Failed Objective: -1.248667
+  Ground Truth: -1.599632
+  BigM Objective: -1.599632
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim6_disj6_disjper12_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim6_disj7_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim6_disj7_disjper11_constper10_feas10_1
+  Failed Objective: 0.136285
+  Ground Truth: 0.062829
+  BigM Objective: 0.062829
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim6_disj7_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim7_disj6_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim7_disj6_disjper11_constper10_feas10_1
+  Failed Objective: 0.184907
+  Ground Truth: 0.151297
+  BigM Objective: 0.151297
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim7_disj6_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim3_disj9_disjper13_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim3_disj9_disjper13_constper10_feas10_1
+  Failed Objective: -0.889784
+  Ground Truth: -0.898450
+  BigM Objective: -0.898450
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim3_disj9_disjper13_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj10_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj10_disjper11_constper10_feas10_1
+  Failed Objective: -0.421928
+  Ground Truth: -0.436961
+  BigM Objective: -0.436961
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim4_disj10_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim5_disj8_disjper12_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim5_disj8_disjper12_constper10_feas10_1
+  Failed Objective: -1.078131
+  Ground Truth: -1.216251
+  BigM Objective: -1.216251
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim5_disj8_disjper12_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim6_disj7_disjper12_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim6_disj7_disjper12_constper10_feas10_1
+  Failed Objective: -0.528947
+  Ground Truth: -0.538967
+  BigM Objective: -0.538967
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim6_disj7_disjper12_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim6_disj8_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim6_disj8_disjper11_constper10_feas10_1
+  Failed Objective: -1.134103
+  Ground Truth: -1.339412
+  BigM Objective: -1.339412
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim6_disj8_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim7_disj6_disjper12_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim7_disj6_disjper12_constper10_feas10_1
+  Failed Objective: 0.316331
+  Ground Truth: 0.316127
+  BigM Objective: 0.316127
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim7_disj6_disjper12_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim7_disj7_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim7_disj7_disjper11_constper10_feas10_1
+  Failed Objective: 0.143364
+  Ground Truth: -0.096776
+  BigM Objective: -0.096776
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim7_disj7_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj8_disjper14_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj8_disjper14_constper10_feas10_1
+  Failed Objective: 0.881154
+  Ground Truth: 0.714615
+  BigM Objective: 0.714615
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim4_disj8_disjper14_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim4_disj10_disjper12_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim4_disj10_disjper12_constper10_feas10_1
+  Failed Objective: -0.665752
+  Ground Truth: -0.668064
+  BigM Objective: -0.668064
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim4_disj10_disjper12_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim5_disj9_disjper12_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim5_disj9_disjper12_constper10_feas10_1
+  Failed Objective: 1.242860
+  Ground Truth: -0.626865
+  BigM Objective: -0.626865
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim5_disj9_disjper12_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim6_disj6_disjper14_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim6_disj6_disjper14_constper10_feas10_1
+  Failed Objective: -1.246014
+  Ground Truth: -1.258390
+  BigM Objective: -1.258389
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim6_disj6_disjper14_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim6_disj7_disjper13_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim6_disj7_disjper13_constper10_feas10_1
+  Failed Objective: 0.468074
+  Ground Truth: 0.453718
+  BigM Objective: 0.453718
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim6_disj7_disjper13_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim7_disj8_disjper11_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim7_disj8_disjper11_constper10_feas10_1
+  Failed Objective: 0.295994
+  Ground Truth: 0.256759
+  BigM Objective: 0.256759
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim7_disj8_disjper11_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim6_disj6_disjper15_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim6_disj6_disjper15_constper10_feas10_1
+  Failed Objective: 0.587926
+  Ground Truth: 0.401311
+  BigM Objective: 0.401311
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim6_disj6_disjper15_constper10_feas10_1
+
+Model: model_no_mode_2025-04-20_23-19-16_dim7_disj5_disjper15_constper10_feas10_1.pkl
+  Model ID: no_mode_2025-04-20_23-19-16_dim7_disj5_disjper15_constper10_feas10_1
+  Failed Objective: -0.826127
+  Ground Truth: -0.886783
+  BigM Objective: -0.886783
+  Location: /home/sergey-gusev/Desktop/research/projects/random_quadratic/data/failed_models_logs/failed_hull_exact/no_mode_2025-04-20_23-19-16_dim7_disj5_disjper15_constper10_feas10_1
+
